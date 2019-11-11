@@ -10,6 +10,96 @@
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
-
+    <section class="wrapper">
+      <div class="inner">
+        <div class="main-content">
+          <div>
+            <h1 class="title">アカウント作成</h1>
+            <div class="social-login__wrapper">
+              <div class="social">
+                <a class="btn facebook" href="">Facebookでスタート</a>
+              </div>
+              <div class="social">
+                <a class="btn google" href="">Googleでスタート</a>
+              </div>
+            </div>
+            <p class="social-text">タイムラインへ投稿を行うことや、アカウント情報を伝えることはありません。</p>
+          </div>
+          <div class="divider">
+            <p class="divider__text">アカウント情報</p>
+          </div>
+          <form>
+            <div class="row name-wrapper">
+              <div class="name">
+                <p class="form-text">名字<span class="reference-mark"> ※</span></p>
+                <input class="input" type="text">
+              </div>
+              <div class="name">
+                <p class="form-text">名前<span class="reference-mark"> ※</span></p>
+                <input class="input" type="text">
+              </div>
+            </div>
+            <div class="row gender-wrapper">
+              <p class="form-text">性別</p>
+              <div class="gender__items">
+                <label class="gender__item"><input class="gender__radio" type="radio" name="gender" value="male">男性</label>
+                <label class="gender__item"><input class="gender__radio" type="radio" name="gender" value="female">女性</label>
+                <label class="gender__item"><input class="gender__radio" type="radio" name="gender" value="other">その他</label>
+              </div>
+            </div>
+            <div class="row origin-wrapper">
+              <p class="form-text">出身</p>
+              <select class="input origin">
+                <option value="東京">東京</option>
+                <option value="千葉">千葉</option>
+                <option value="埼玉">埼玉</option>
+                <option value="神奈川">神奈川</option>
+              </select>
+            </div>
+            <div class="row">
+              <p class="form-text">Eメール<span class="reference-mark"> ※</span></p>
+              <input class="input" type="text" placeholder="ex) hoge@example.com" name="email">
+            </div>
+            <div class="row">
+              <p class="form-text">電話番号</p>
+              <input class="input" type="text" placeholder="ex) 09012345678" name="tel">
+            </div>
+            <div class="row">
+              <p class="form-text">パスワード<span class="reference-mark"> ※</span></p>
+              <input class="input" type="text" name="password">
+            </div>
+            <div class="row">
+              <p class="form-text">パスワード(確認用)<span class="reference-mark"> ※</span></p>
+              <input class="input" type="text" name="password-confirm">
+            </div>
+            <div class="row">
+              <p class="form-text">希望コース</p>
+              <div class="course__items">
+                <label class="course__item"><input class="course__check" type="checkbox" name="course" value="frontend">フロントエンド</label>
+              </div>
+              <div class="course__items">
+                <label class="course__item"><input class="course__check" type="checkbox" name="course" value="backend">バックエンド</label>
+              </div>
+              <div class="course__items">
+                <label class="course__item"><input class="course__check" type="checkbox" name="course" value="app">アプリ</label>
+              </div>
+            </div>
+            <div class="row">
+              <p class="form-text">備考</p>
+              <textarea class="input input__remark" placeholder="何かあればご記入ください" name="remarks"></textarea>
+            </div>
+            <div class="row">
+              <input class="btn submit__btn" type="submit" value="アカウント作成">
+            </div>
+            <div class="agree">
+              <p>アカウントを作成することにより、<a class="link-color" href="">利用規約</a>と<a class="link-color" href="">プライバシーポリシー</a>に同意するものとします。</p>
+            </div>
+          </form>
+        </div>
+        <div class="footer">
+          <p class="footer__text">すでにアカウントをお持ちですか？ <a class="link-color" href="">ログイン</a></p>
+          <a class="footer__text link-color resend-mail" class="link-color" href="">認証メールが届きませんか？</a>
+      </div>
+    </section>
   </body>
 </html>
