@@ -181,6 +181,7 @@
 }
 
 .gender__item {
+  cursor: pointer;
   margin-left: 15px;
   padding: 3px 3px 3px 20px;
   position: relative;
@@ -194,6 +195,7 @@
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
+  cursor: pointer;
   outline: none;
   position: absolute;
 }
@@ -244,8 +246,8 @@
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-  position   : absolute;
   outline: none;
+  position   : absolute;
 }
 
 .course__item::before {
@@ -277,6 +279,7 @@
 
 .submit__btn {
   background-color: #01bfbd;
+  border: none;
   color: #fff;
 }
 
@@ -295,6 +298,10 @@
   line-height: 16px;
 }
 
+.agree__link:hover {
+  color: #01bfbd;
+}
+
 .link-color {
   color: #01a6a4;
 }
@@ -308,6 +315,10 @@
   line-height: 16px;
   margin-bottom: 8px;
   text-align: center;
+}
+
+.footer__link:hover {
+  border-bottom: 1px solid #01bfbd;
 }
 
 .resend-mail {
