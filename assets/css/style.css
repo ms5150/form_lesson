@@ -306,6 +306,10 @@
   color: #01a6a4;
 }
 
+.link-color:hover {
+  color: #01bfbd;
+}
+
 .footer {
   text-align: center;
 }
@@ -318,7 +322,6 @@
 }
 
 .footer__link:hover {
-  color: #01bfbd;
   border-bottom: 1px solid #01bfbd;
 }
 
