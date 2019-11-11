@@ -318,6 +318,7 @@
 }
 
 .footer__link:hover {
+  color: #01bfbd;
   border-bottom: 1px solid #01bfbd;
 }
 
